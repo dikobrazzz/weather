@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="tmp_list_item">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>23</item>
+        <item>-1</item>
+        <item>6</item>
+        <item>-15</item>
+    </integer-array>
+</resources>

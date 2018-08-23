@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_note_title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginStart="@dimen/default_padding_small"
+        android:layout_marginEnd="@dimen/default_padding_small"
+        android:layout_marginBottom="@dimen/default_padding_small"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"/>
+
+    <EditText
+        android:id="@+id/et_note_text"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginStart="@dimen/default_padding_small"
+        android:layout_marginEnd="@dimen/default_padding_small"
+        android:layout_marginBottom="@dimen/default_padding_small"
+        android:layout_height="wrap_content"
+        android:hint="@string/note"/>
+
+    <EditText
+        android:id="@+id/et_note_date"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginStart="@dimen/default_padding_small"
+        android:layout_marginEnd="@dimen/default_padding_small"
+        android:layout_marginBottom="@dimen/default_padding_small"
+        android:layout_height="wrap_content"
+        android:hint="@string/date"/>
+
+    <EditText
+        android:id="@+id/et_note_event"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginStart="@dimen/default_padding_small"
+        android:layout_marginEnd="@dimen/default_padding_small"
+        android:layout_marginBottom="@dimen/default_padding_small"
+        android:layout_height="wrap_content"
+        android:hint="@string/Event"/>
+
+</LinearLayout>

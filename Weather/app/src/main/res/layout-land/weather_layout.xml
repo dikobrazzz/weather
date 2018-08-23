@@ -1,0 +1,68 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.geekbrains.weather.ui.weather.WeatherFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/baseFonColor">
+
+        <ImageView
+            android:id="@+id/ivWeather"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rain" />
+
+        <TextView
+            android:id="@+id/tv_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivWeather"
+            android:layout_centerHorizontal="true"
+            android:text="@string/other"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/bigTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_country"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="+18"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bigTemp"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tv_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pressure"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="@string/hello_blank_fragment" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
